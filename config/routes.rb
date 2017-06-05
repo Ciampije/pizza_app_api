@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :users do
       collection do
           post '/login', to: 'users#login'
-    resources :restaurants, only: [:index, :show] do
+    resources :restaurants, except: [:delete] do
         resources :reviews
 
     end
