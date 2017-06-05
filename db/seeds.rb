@@ -7,33 +7,49 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Restaurant.create(
-    name: 'Borellis',
-    address: '516 Houston Street',
+    name: 'Vocelli Pizza',
+    address: '2626 N Pershing Drive',
     img: 'http://www.seriouseats.com/recipes/assets_c/2017/02/20170216-detroit-style-pizza-43-thumb-1500xauto-436479.jpg'
 )
 
 Restaurant.create(
-    name: 'Bennys',
-    address: '310 Washington Street',
+    name: 'Paisonos Pizza',
+    address: '2201 N Pershing Dr',
     img: 'http://www.fivepointspizza.com/wp-content/uploads/2015/04/Five-Points-Pizza-24-1024x682.jpg'
 )
 
-Review.create(
-  content: 'hi',
-  restaurant_id: 1
+Restaurant.create(
+    name: 'Fire Works Pizza',
+    address: '2350 Clarendon Blvd',
+    img: 'http://www.seriouseats.com/recipes/assets_c/2017/02/20170216-detroit-style-pizza-43-thumb-1500xauto-436479.jpg'
 )
 
-Review.create(
-  content: 'yo',
-  restaurant_id: 1
+Restaurant.create(
+    name: 'Petes New Haven Style Pizza',
+    address: '3017 Clarendon Blvd',
+    img: 'http://www.fivepointspizza.com/wp-content/uploads/2015/04/Five-Points-Pizza-24-1024x682.jpg'
 )
 
-Review.create(
-  content: 'hello',
-  restaurant_id: 2
+Restaurant.create(
+    name: 'Dominos Pizza',
+    address: '1555 Wilson Blvd',
+    img: 'http://www.seriouseats.com/recipes/assets_c/2017/02/20170216-detroit-style-pizza-43-thumb-1500xauto-436479.jpg'
 )
 
-Review.create(
-  content: 'hey',
-  restaurant_id: 2
+Restaurant.create(
+    name: 'We, The Pizza',
+    address: '2100 Crystal Drive',
+    img: 'http://www.fivepointspizza.com/wp-content/uploads/2015/04/Five-Points-Pizza-24-1024x682.jpg'
+)
+
+Restaurant.create(
+    name: 'Fillmore Pizza',
+    address: '5175 Lee Hwy',
+    img: 'http://www.seriouseats.com/recipes/assets_c/2017/02/20170216-detroit-style-pizza-43-thumb-1500xauto-436479.jpg'
+)
+
+Restaurant.create(
+    name: 'Pupatella',
+    address: '5104 Wilson Blvd',
+    img: 'http://www.fivepointspizza.com/wp-content/uploads/2015/04/Five-Points-Pizza-24-1024x682.jpg'
 )
